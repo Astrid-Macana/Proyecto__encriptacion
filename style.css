@@ -1,0 +1,66 @@
+* {
+  background-color: #e5e0ff;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 150%;
+}
+.logo {
+  padding-top: 2%;
+  margin-left: 4%;
+  width: 5%;
+}
+main {
+  display: flex;
+  margin-bottom: 10px;
+  margin-left: 5%;
+  margin-right: 2%;
+  margin-top: 1%;
+}
+#ingreso_texto {
+  border: none;
+  color: #7286d3;
+  margin-top: 5%;
+}
+::placeholder {
+  color: #7286d3;
+}
+#ingreso_texto {
+  outline: none; /*propiedad que elimina el contorno*/
+}
+
+#texto_encriptado {
+  background: #fff2f2;
+  background-image: url(img/Muñeco.png);
+  background-repeat: no-repeat;
+  background-size:50%;
+  background-position: center;
+  border: none;
+  border-radius:5%;
+  color: #7286d3;
+  margin-left: 10%;
+  margin-top: 2px;
+  padding-left: 5%;
+  width: 20%;
+  height: 95%;
+  position: fixed;
+}
+
+/* .caja_texto{
+  justify-content: center;
+   text-align: center;
+   position: absolute;
+} */
+
+.instruccionstrong{
+   justify-content: center;
+   text-align: center;
+   position: absolute;
+  white-space: pre-wrap;
+  font-family: "Inter";
+  font-size: 0.9rem;
+ 
+}
+/* .img_busqueda{
+
+} */
