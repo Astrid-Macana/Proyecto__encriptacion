@@ -1,26 +1,33 @@
 * {
-  background-color: #e5e0ff;
+  background-color: #e6e4f1;
   font-family: "Inter";
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   line-height: 150%;
 }
 .logo {
   padding-top: 2%;
   margin-left: 4%;
-  width: 5%;
+  width: 9%;
 }
 main {
   display: flex;
-  margin-bottom: 10px;
-  margin-left: 5%;
+  margin-bottom: 2px;
+  margin-left: 2%;
   margin-right: 2%;
   margin-top: 1%;
 }
+/* 
+.seccion_Ingreso{
+  height: 10%;
+} */
 #ingreso_texto {
   border: none;
   color: #7286d3;
-  margin-top: 5%;
+   margin-top: 10%;
+  margin-left: 20%; 
+  margin-right: 20%;
+  resize: none;
 }
 ::placeholder {
   color: #7286d3;
@@ -28,13 +35,118 @@ main {
 #ingreso_texto {
   outline: none; /*propiedad que elimina el contorno*/
 }
+.texto_informativo{
+  display: flex;
+  align-items: center;
+  font-family: "Inter";
+  font-size: 0.6rem;
+  font-weight: 400;
+  /* flex-direction: row; */
+  margin-left:20% ;
+ 
+}
+.btnEncriptar{
+  background-color: #B983FF;
+  border: 1px solid #65399f;
+  border-radius: 14px;
+  color: white;
+  cursor: pointer;/*inca que se puede hacer click*/
+  height: 50px;
+  width: 300px;
+  font-size: 1.1rem;
+  font-family: "Inter";
+}
 
-#texto_encriptado {
+.botones{
+  display: flex;
+  margin-top: 18px;
+  margin-left: 20%;
+}
+.btnDesencriptar{
+  
+  background-color:#cdb6ee;
+  border: 1px solid #65399f;
+  border-radius: 14px;
+  color:#3d3264;
+  cursor: pointer;/*inca que se puede hacer click*/
+  height: 50px;
+  width: 300px;
+   font-size: 1.1rem;
+  font-family: "Inter";
+  /* gap: 8px; */
+  margin-left: 2%;
+}
+
+.contenedor_desencriptar{
+  display: flex;
   background: #fff2f2;
-  background-image: url(img/Muñeco.png);
-  background-repeat: no-repeat;
-  background-size:50%;
-  background-position: center;
+  border-radius:5%;
+  color: #47589f;
+  margin-left: 25%;
+  /* margin-top: 2px; */
+  padding-left: 5%;
+   height: 70%;
+   width: 23%;
+ 
+  left: 50%;
+  position: fixed; 
+}
+ .caja_texto{
+  background: #fff2f2 ;
+  justify-content: center;
+   text-align: center;
+   /* position: absolute; */
+} 
+
+.parrafo{
+  background:#fff2f2;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  width: 100%;
+  top:65%;
+  font-size: 1rem;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #texto_encriptado {
+  background: #fff2f2;
+  /* background-image: url(img/Muñeco.png);
+  background-repeat: no-repeat; */
+  /* background-size:50%; */
+  /* background-position: center;
   border: none;
   border-radius:5%;
   color: #7286d3;
@@ -44,15 +156,25 @@ main {
   width: 20%;
   height: 95%;
   position: fixed;
-}
-
+  z-index: 0; */
+/* }
+#texto_encriptado{
+   outline: none; 
+} */
+/* .contenedor_desencriptar{
+  justify-content: center;
+   text-align: center;
+   position: absolute;
+   z-index: 1;
+  
+} */
 /* .caja_texto{
   justify-content: center;
    text-align: center;
    position: absolute;
 } */
 
-.instruccionstrong{
+/* .instruccionstrong{
    justify-content: center;
    text-align: center;
    position: absolute;
@@ -60,7 +182,7 @@ main {
   font-family: "Inter";
   font-size: 0.9rem;
  
-}
+} */
 /* .img_busqueda{
 
-} */
+} */ 
