@@ -11,49 +11,41 @@
     <header>
         <img src="img/logoAlura.png" alt="logo de alura" class="logo"/>
         <main>
-           <section class="seccion_Ingreso">
-                 <textarea id="ingreso_texto" cols="20" rows="10" placeholder="Ingrese aqui el texto"></textarea>
+             <section class="seccion_Ingreso">
+                  <textarea id="ingreso_texto" cols="20" rows="10" placeholder="Ingrese aqui el texto"></textarea>
                  <!-- <div>
                         <span id="mensaje_error"></span> 
-                </div> -->
-            
-                <h6 class="texto_informativo">Solo letras minusculas y sin acentos</h6>
-            
-            <div class="botones">
-                <button class="btnEncriptar" onclick= " btnEncriptar()">Encriptar</button>
-                <button class="btnDesencriptar" onclick=" btnDesencriptar() ">Desencriptar</button>
-            </div>
-           </section> 
-           <section class="contenedor_desencriptar">
-                <div class="caja_texto">
-                <h4 class="instruccion"> Ningún mensaje fue encontrado </h4>
-                <p class="parrafo">Ingresa el texto que desees encriptar o desencriptar.</p> 
-                 </div>
-        
-               <!-- <img src="img/Muñeco.png" alt="imagen de un hombre buscando algo" class="img_busqueda"> 
-                <h4 class="instruccion"> Ningún mensaje fue encontrado </h4>
-                <p class="instruccion">Ingresa el texto que desees encriptar o desencriptar.</p> 
-                 <textarea id="texto_encriptado" cols="20" rows="10" ></textarea>  -->
-          
-            <!-- <textarea id="texto_encriptado" cols="20" rows="10" ></textarea> -->
-             <!-- <div>
-                <img src="img/Muñeco.png" alt="imagen de un hombre buscando algo" class="img_busqueda"> 
-                 </div>
-                 <div class="caja_texto">
-                <h4 class="instruccion"> <strong>Ningún mensaje fue encontrado</strong> </h4>
-                <h6 class="instruccion">Ingresa el texto que desees encriptar o desencriptar.</h6> 
                  </div> -->
-           
-            <div>
-                 <button onclick="btnCopiar ()">Copiar</button>
-            </div>
+            
+                 <h6 class="texto_informativo">Solo letras minusculas y sin acentos</h6>
+            
+                 <div class="botones">
+                    <button class="btnEncriptar" onclick= " btnEncriptar()">Encriptar</button>
+                     <button class="btnDesencriptar" onclick=" btnDesencriptar() ">Desencriptar</button>
+                  </div>
+                </section> 
+                 <section class="contenedor_desencriptar">
+                        
+                       <div class="caja_texto">
+                           <textarea id="texto_encriptado" cols="20" rows="10" ></textarea>
+                           <img src="img/Muñeco.png" alt="imagen de un hombre buscando algo" class="img_busqueda">
+                          <h4 class="instruccion"> Ningún mensaje fue encontrado </h4>
+                           <p class="parrafo">Ingresa el texto que desees encriptar o desencriptar.</p> 
+                     </div>
+        
+               
+             <div class="div_btncopiar">
+                 <button class="btnCopiar" onclick="btnCopiar ()">Copiar</button>
+            </div> 
            </section>
         </main>
     </header>
     <footer>
+        <div class="div_footer">
         <h4>Elaborado en el trancurso del Programa ONE, una alianza entre Alura Latam y Oracle</h4>
         <h5>Elaborado por Astrid Macana </h5>
         <h6>Agosto 2024</h6>
+        </div>
     </footer>
 </body>
 </html>

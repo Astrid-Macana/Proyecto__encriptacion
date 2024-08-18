@@ -1,32 +1,58 @@
 * {
-  background-color: #e6e4f1;
-  font-family: "Inter";
+  margin: 0;
+  padding:0;
+  /* font-family: "Inter";
   font-weight: 400;
   font-size: 1.4rem;
-  line-height: 150%;
+  line-height: 150%;  */
+}
+body{
+  background-color: #e6e4f1;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  padding: 2px 0 2px 0;
+  height: 100%;
+  width: 100%;
+
 }
 .logo {
   padding-top: 2%;
   margin-left: 4%;
   width: 9%;
 }
-main {
+
+.div_footer h4,h5,h6{
+  
   display: flex;
-  margin-bottom: 2px;
-  margin-left: 2%;
-  margin-right: 2%;
-  margin-top: 1%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-family: "Inter";
+  font-size: 0.9rem;
+  font-weight: 400;
+  padding: 0.1rem;
+  margin-top: 5%;
+ 
 }
-/* 
-.seccion_Ingreso{
-  height: 10%;
-} */
 #ingreso_texto {
+  background:#e6e4f1;
+  display: flex;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 1.4rem;
+  width: 90%;
+  height: 90%;
   border: none;
   color: #7286d3;
-   margin-top: 10%;
-  margin-left: 20%; 
-  margin-right: 20%;
+  margin-top: 10%;
+  margin-left: 30%; 
+  margin-bottom: 10%;
+  /* margin-right: 20%;  */
   resize: none;
 }
 ::placeholder {
@@ -41,8 +67,7 @@ main {
   font-family: "Inter";
   font-size: 0.6rem;
   font-weight: 400;
-  /* flex-direction: row; */
-  margin-left:20% ;
+  margin-left:0.5% ;
  
 }
 .btnEncriptar{
@@ -60,7 +85,7 @@ main {
 .botones{
   display: flex;
   margin-top: 18px;
-  margin-left: 20%;
+  margin-left: 30%;
 }
 .btnDesencriptar{
   
@@ -71,96 +96,110 @@ main {
   cursor: pointer;/*inca que se puede hacer click*/
   height: 50px;
   width: 300px;
-   font-size: 1.1rem;
+  font-size: 1.1rem;
+  font-family: "Inter";
+  /* gap: 8px; */
+  margin-left: 2%;
+}
+.div_btncopiar{
+
+  display: flex;
+  margin-top: 18px;
+  margin-left: 9%;
+}
+
+.btnCopiar{
+  background-color:#cdb6ee;
+  border: 1px solid #65399f;
+  border-radius: 14px;
+  color:#3d3264;
+  cursor: pointer;/*indica que se puede hacer click*/
+  height: 40px;
+  width: 200px;
+  font-size: 1.1rem;
   font-family: "Inter";
   /* gap: 8px; */
   margin-left: 2%;
 }
 
 .contenedor_desencriptar{
+
   display: flex;
+  justify-content: center; 
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   background: #fff2f2;
   border-radius:5%;
   color: #47589f;
-  margin-left: 25%;
-  /* margin-top: 2px; */
-  padding-left: 5%;
-   height: 70%;
-   width: 23%;
- 
+  margin-left: 18%; 
+  width: 25%;
+  height: 85%;
   left: 50%;
-  position: fixed; 
+  position: fixed;  
 }
- .caja_texto{
+
+.img_busqueda{
+  height: 40%;
+  width:55%;
+  top:15%;
+  margin-bottom: 5%;
+  margin-left: 20%;
+  background-repeat: no-repeat; 
+  
+}
+ /* .caja_texto{
+  /* box-sizing: content-box; */
+  /* flex-direction: column; 
+  align-items: flex-end;
   background: #fff2f2 ;
   justify-content: center;
-   text-align: center;
-   /* position: absolute; */
-} 
+  text-align: center;  */
 
-.parrafo{
-  background:#fff2f2;
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  position: absolute;
-  width: 100%;
-  top:65%;
-  font-size: 1rem;
-  text-align: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* #texto_encriptado {
+#texto_encriptado {
   background: #fff2f2;
-  /* background-image: url(img/Muñeco.png);
-  background-repeat: no-repeat; */
-  /* background-size:50%; */
-  /* background-position: center;
   border: none;
   border-radius:5%;
   color: #7286d3;
   margin-left: 10%;
   margin-top: 2px;
   padding-left: 5%;
-  width: 20%;
-  height: 95%;
-  position: fixed;
-  z-index: 0; */
-/* }
+  width: 10%;
+  height: 25%;
+ 
+
+ }
 #texto_encriptado{
    outline: none; 
-} */
+} 
+.instruccion{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 100%;
+  top:55%;
+  font-size: 1rem;
+  text-align: center
+}
+
+
+.parrafo{
+  background:#fff2f2;
+  display:flex;
+
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 100%;
+  top:65%;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+
+
+ 
 /* .contenedor_desencriptar{
   justify-content: center;
    text-align: center;
